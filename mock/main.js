@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const net  = require('net')
 const app  = express()
-const mock = require('./mock/index')
+const mock = require('./Mock_API/index')
 const config = require('./config')
 
 
@@ -41,7 +41,7 @@ function init() {
 // 启动服务
 function startServer() {
   app.listen(port, () => {
-    console.log('\nApp running at:\n\n- Local: \x1B[34m%s\x1B[0m\n', 'http://localhost:' + port + '/updatelog/list')
+    console.log('\nApi running at:\n\n- Local: \x1B[34m%s\x1B[0m\n', 'http://localhost:' + port + '/updatelog/list')
   })
 }
 
