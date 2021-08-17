@@ -4,7 +4,7 @@
 ## 目录
 名称 | 简介| 地址 
 --- | --- |---
-mock | nodejs mock数据 | [ >>> ](mock/README.md)
+mock | nodejs mock数据 | [ >>> ](mock)
 
 ## 许可
 [MIT License](LICENSE)
